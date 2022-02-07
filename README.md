@@ -8,8 +8,8 @@
 2. Tạo dataset:
 * Dữ liệu lưu lượng mẫu mà bài toán sử dụng được cắt ra từ tập dữ liệu khá lớn nên đồ án này chỉ sử dụng lại một phần tại: [QUIC Traffic](https://drive.google.com/drive/folders/1V7rfXIu2tE3Dh8Dg15AMfN2ryW_mVhQX?usp=sharing)
 * Chương trình tạo dữ liệu huấn luyện được để trong 2 file:
- * Tiền xử lý cho mô hình RandomForest tại file: project3PreprocessingRandomForest.ipynb
- * Tiền xử lý cho mô hình RandomForest tại file: project3PreprocessingCNN.ipynb
+  * Tiền xử lý cho mô hình RandomForest tại file: project3PreprocessingRandomForest.ipynb
+  * Tiền xử lý cho mô hình RandomForest tại file: project3PreprocessingCNN.ipynb
 * Do project được chạy và thực thi trên Google Colab và dữ liệu được import từ Google Drive nên nếu dùng nguyên đoạn code hiện tại thì sẽ cần đưa các folder trong thư mục Netfow_QUIC1 lên thư mục có tên là "project3" trên Google Drive.
 * Hoặc có thể chạy đoạn code ở jupyternotebook phía local tuy nhiên cần sửa lại đường dẫn của cấu trúc thư mục (Nên sử dụng Colab do file dữ liệu có rất nhiều gói tin nên việc đọc ở máy tính cá nhân sẽ rất lâu so với sử dụng Colab được tích hợp cơ chế phân tán).
 3. Sử dụng dataset đã được tạo sẵn:
